@@ -1,0 +1,11 @@
+#grid{
+	background: #fff url("../img/grid.gif");
+	width:100%;
+	height:2000px;
+	position:fixed;
+	top:0;
+}
+
+#container {
+	
+}
