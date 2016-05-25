@@ -4,8 +4,27 @@
 	height:2000px;
 	position:fixed;
 	top:0;
+	z-index:1;
 }
 
-#container {
-	
+#content {
+	color:#CC03CC;
+	text-align:center;
+	width:960px;
+	margin:0 auto;
+	z-index:2;
+	position: relative;
+}
+
+#content article{
+	background-color: #eee;
+	border: 1px solid #ddd;
+	padding:20px;
+	opacity:0.7;
+	height:200px;
+	margin:50px 0;
+}
+
+#content article h2{
+	/*text-align:left;*/
 }
